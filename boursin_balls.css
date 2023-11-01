@@ -1,0 +1,96 @@
+@font-face {
+    font-family: chivo_bold;
+    src: url(assets/fonts/Chivo-Bold.ttf);
+}
+
+@font-face {
+    font-family: chivo_semibold;
+    src: url(assets\fonts\Chivo-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: chivo_regular;
+    src: url(assets/fonts/Chivo-Regular.ttf);
+}
+
+body{
+    margin: 0;
+    padding: 50px;
+    flex-direction: column;
+}
+
+.food-title-and-image-container{
+    display: flex;
+    background-color: #ccd3aa;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.food-title-and-image-container img{
+    max-width: 60%;
+    max-height: auto;
+}
+
+.food-name-and-desc-container{
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    padding: 50px;
+}
+
+.food-name-and-desc-container h1{
+    font-family: chivo_bold;
+    font-size: 60px;
+    margin-bottom: 5px;
+}
+
+
+.food-name-and-desc-container p{
+    font-family: chivo_regular;
+    font-size: 20px;
+    line-height: 170%;
+    
+}
+
+.ingredients-and-directions-container{
+    display: flex;
+    justify-content: center;
+}
+
+.ingredients-container, .directions-container{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #ccd3aa;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+
+.ingredients-container h1, .directions-container h1{
+    font-family: chivo_bold;
+    font-size: 35px;
+}
+
+.ingredients-container{
+    margin-right: 20px;
+}
+
+.directions-container{
+    margin-left: 20px;
+}
+
+
+li{
+    margin-bottom: 20px;
+    font-family: chivo_regular;
+    font-size: 20px;
+    line-height: 180%;
+}
+
