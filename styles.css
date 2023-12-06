@@ -31,9 +31,9 @@ body{
 }
 
 .food-container{
-    background-color: green;
     display: flex;
     justify-content: center;
+    gap: 40px;
 }
 
 .image-and-text-container{
@@ -60,7 +60,6 @@ body{
 }
 
 .image-and-text-container p{
-    background: brown;
     font-family: chivo_regular;
     font-size: 30px;
     color: black;
